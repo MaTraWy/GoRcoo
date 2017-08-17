@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/history_table"
+    android:layout_height="match_parent">
+    <!--android:background="@color/Log"-->
+    <LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:orientation="horizontal">
+    <android.support.v7.widget.SearchView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#818182"
+        android:background="#242424"
+        android:textCursorDrawable="@color/cyan"
+        android:inputType="text"
+        android:textColorHint="@color/cyan"
+        android:id="@+id/history_search"
+        android:hint="Enter Name" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:paddingTop="350dp"
+        android:layout_height="2dp"
+        android:layout_margin="15dp"
+        android:background="@android:color/darker_gray"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_list"
+        android:fillViewport="true"
+        android:layout_margin="15dp">
+    </ListView>
+    <!--        android:background="@color/brown"
+    -->
+</LinearLayout>
+

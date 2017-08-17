@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GoRcoo</string>
+    <string name="pref_url_key">URL</string>
+    <string name="pref_url_default">http://extremeapp.000webhostapp.com/</string>
+    <string name="pref_version_key">Version</string>
+    <string name="pref_version_default">2017-08-06 13:45:24</string>
+    <string name="pref_username_key">Username</string>
+    <string name="pref_username_default"></string>
+    <string name="pref_password_key">Password</string>
+    <string name="pref_password_default"></string>
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Header
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="No:         "
+                android:textColor="@color/table_header"
+                android:textSize="@dimen/font_size_header" />
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Data
+                android:id="@+id/row_num_remain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/table"
+                android:textSize="@dimen/font_size_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Header
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Code:      "
+                android:textColor="@color/table_header"
+                android:textSize="@dimen/font_size_header" />
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Data
+                android:id="@+id/row_code_remain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/table"
+                android:textSize="@dimen/font_size_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Header
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Name:     "
+                android:textColor="@color/table_header"
+                android:textSize="@dimen/font_size_header" />
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Data
+                android:id="@+id/row_name_remain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/table"
+                android:textSize="@dimen/font_size_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Header
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Address: "
+                android:textColor="@color/table_header"
+                android:textSize="@dimen/font_size_header" />
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Data
+                android:id="@+id/row_address_remain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/table"
+                android:textSize="@dimen/font_size_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Header
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Price:      "
+                android:textColor="@color/table_header"
+                android:textSize="@dimen/font_size_header" />
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Data
+                android:id="@+id/row_price_remain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/table"
+                android:textSize="@dimen/font_size_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Header
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Date:       "
+                android:textColor="@color/table_header"
+                android:textSize="@dimen/font_size_header" />
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Data
+                android:id="@+id/row_date_remain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/table"
+                android:textSize="@dimen/font_size_data" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Header
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Metting:  "
+                android:textColor="@color/table_header"
+                android:textSize="@dimen/font_size_header" />
+
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Data
+                android:id="@+id/row_metting_remain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/table"
+                android:textSize="@dimen/font_size_data" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Header
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_header"
+                android:textColor="@color/table_header"
+                android:text="Status:    "
+                android:padding="5dp"/>
+
+            <CheckBox
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:theme="@style/WhiteCheck"
+                android:focusable="false"
+                android:clickable="false"
+                android:textSize="@dimen/font_size_data"
+                android:id="@+id/row_stat_remain" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Header
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_header"
+                android:textColor="@color/table_header"
+                android:text="Note        "
+                android:padding="5dp"/>
+            <com.matrawy.a7oda.gorcoo.Fonts.Custom_Font_Data
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/font_size_data"
+                android:textColor="@color/table"
+                android:padding="5dp"
+                android:id="@+id/row_note_remain" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_margin="1dp"
+            android:background="@color/row" />
+
+    </LinearLayout>
+</LinearLayout>

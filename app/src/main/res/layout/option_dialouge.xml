@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/list_option">
+    </ListView>
+    <Button
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:id="@+id/option_server_upd"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.3"
+        android:text="apply To Server"/>
+</LinearLayout>
